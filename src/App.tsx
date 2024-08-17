@@ -1,10 +1,9 @@
-import { Button } from "./components/ui/button";
 import "./global.css";
 
+import { RouterProvider } from "react-router-dom";
+
+import { router } from "./routes/router";
+
 export function App() {
-  return (
-    <h1 className="flex h-screen items-center justify-center bg-muted">
-      <Button variant="default">Hello World :)</Button>
-    </h1>
-  );
+  return <RouterProvider router={router} />;
 }
