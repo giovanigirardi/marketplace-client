@@ -1,6 +1,7 @@
 import { AppLayout } from "@/pages/_layouts/AppLayout";
 import { AuthLayout } from "@/pages/_layouts/AuthLayout";
 import { Dashboard } from "@/pages/app/dashboard";
+import { Products } from "@/pages/app/products";
 import { SignIn } from "@/pages/auth/signIn";
 import { SignUp } from "@/pages/auth/signUp";
 
@@ -19,6 +20,14 @@ const APP_ROUTES = [
   {
     path: "/",
     element: <Dashboard />,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+  },
+  {
+    path: "/products",
+    element: <Products />,
   },
 ];
 
