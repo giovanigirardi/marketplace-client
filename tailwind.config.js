@@ -21,6 +21,9 @@ module.exports = {
       "dm-sans": ["DM Sans", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        "auth-layout": "url('/src/assets/auth-background.png')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
