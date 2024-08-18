@@ -36,6 +36,9 @@ module.exports = {
         "gray-300": "hsl(var(--gray-300))",
         "gray-400": "hsl(var(--gray-400))",
         "gray-500": "hsl(var(--gray-500))",
+        "blue-light": "hsl(var(--blue-light))",
+        "blue-base": "hsl(var(--blue-base))",
+        "blue-dark": "hsl(var(--blue-dark))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
