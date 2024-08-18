@@ -4,13 +4,15 @@ import logoSvg from "@/assets/logo.svg";
 
 export function AuthLayout() {
   return (
-    <div className="flex p-6">
-      <aside className="bg-auth-layout flex h-screen flex-1 flex-col bg-[length:50%] bg-left bg-no-repeat p-4">
+    <div className="flex h-screen p-6">
+      <aside className="flex h-full flex-1 flex-col bg-auth-layout bg-[length:80%] bg-left bg-no-repeat p-4">
         <header>
           <img src={logoSvg} alt="" />
         </header>
       </aside>
-      <Outlet />
+      <div className="h-full w-[580px] overflow-auto rounded-[32px] bg-card px-20 py-[72px]">
+        <Outlet />
+      </div>
     </div>
   );
 }
