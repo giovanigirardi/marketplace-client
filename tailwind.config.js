@@ -16,6 +16,10 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      "poppins": ["Poppins", "sans-serif"],
+      "dm-sans": ["DM Sans", "sans-serif"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -23,6 +27,12 @@ module.exports = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        "orange-dark": "hsl(var(--orange-dark))",
+        "gray-100": "hsl(var(--gray-100))",
+        "gray-200": "hsl(var(--gray-200))",
+        "gray-300": "hsl(var(--gray-300))",
+        "gray-400": "hsl(var(--gray-400))",
+        "gray-500": "hsl(var(--gray-500))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -34,6 +44,10 @@ module.exports = {
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
